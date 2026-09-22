@@ -27,4 +27,4 @@ for i in range(len(calificaciones)):
             aux = calificaciones[x]
             calificaciones[x]=calificaciones[x+1]
             calificaciones[x+1]=aux
-print("Orden descendente: "calificaciones)
+print("Orden descendente: ", calificaciones)
